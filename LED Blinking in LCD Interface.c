@@ -3,7 +3,6 @@ void display(char *p);
 void cmd(char a);
 void data(char b);
 void delay();
-
 void main()
 {   
     ADCON1=0X0F;      //Disables the analog input mode 
